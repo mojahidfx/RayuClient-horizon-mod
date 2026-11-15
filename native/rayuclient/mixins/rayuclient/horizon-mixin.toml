@@ -1,0 +1,16 @@
+[mod]
+id = "rayuclient"
+version = "0.1.0"
+priority = 100
+
+[compatibility]
+horizon_revision = "09fa16c167c4b2f8eb23fddd0faa808d56d0a2f2"
+
+[[injection]]
+id = "prefix-name-tags"
+kind = "RETURN"
+target = "horizon_client::game::names::Game<'_>::name_tags"
+helper = "prefix.rs"
+bindings = [
+  { name = "tags", ty = "Vec<NameTag>", value = "$value" },
+]
