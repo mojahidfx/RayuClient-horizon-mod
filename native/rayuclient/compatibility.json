@@ -1,6 +1,5 @@
 {
   "game": "26.3",
-  "hooks": 359,
   "horizon_repository": "https://github.com/starling-client/starling",
   "horizon_revision": "09fa16c167c4b2f8eb23fddd0faa808d56d0a2f2",
   "horizon_mixins_repository": "https://github.com/horizon-rust/horizon-mixins",
